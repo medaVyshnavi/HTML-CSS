@@ -1,0 +1,75 @@
+body{
+    background-color: #c0f3fa;
+    font-family: Kumbh Sans;
+}
+
+.container{
+    display:grid;
+    grid-template-rows: 2fr 3.5fr;
+    justify-items: center;
+    position: relative;
+    margin-top: 170px;
+    
+}
+
+.image{
+    width: 6%;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left:624px;
+    margin-top: -240px;
+    background-image: url('images/image-victor.jpg');
+}
+
+ .top{
+    background-image: url('images/bg-pattern-card.svg');
+    height: 95px;
+    padding: 10px 92px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+
+.top h1{
+    padding: 0 61px;
+}
+
+.bottom{
+     background-color: blanchedalmond;
+     padding: 20px 20px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+} 
+
+.bottom h4{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    font-weight: normal;
+    color:hsl(0, 0%, 59%);
+}
+
+p{
+    text-align:center;
+    margin-top:-11px;
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);
+}
+b{
+    font-size:16px;
+    padding-right: 10px;
+}
+li{
+    float: left;
+    list-style-type: none;
+    width: 30.3%;
+    font-size: 10px;
+    text-align: center;
+}
+
+footer{
+    border: 1px solid hsl(0, 0%, 59%)
+}
