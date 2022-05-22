@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin: 80px 100px 60px;
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+
+    .nav{
+        display:flex;
+        gap: 2rem;
+
+        p{
+            padding:0.5rem;
+        }
+    }
+}
+
+.section{
+
+    .part{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:2rem;
+        margin:0 100px; 
+
+        .illustration{
+            width: 50rem;
+            padding: 0 2rem 2rem;
+            height: 35rem;
+            margin-bottom: 10rem;
+
+        }
+
+        .data{
+            place-items: center;
+            margin: 40px 0px 200px;
+
+            h3{
+                font-size:2.5rem;
+                padding: 10px 270px 10px 0;
+                font-family: 'Raleway', sans-serif;
+                margin: 30px 0;
+            }
+
+            p{
+                font-size: 1.3rem;
+                padding: 0 9rem 1.5rem 0;
+            }
+
+            input{
+                padding:1rem 10rem 1rem 0;
+                font-size: 1rem;
+                border-radius: .3rem;
+  
+            }
+
+            button{
+                padding: 1rem 5rem 1rem;
+                background-color: #3065f8;
+                color: #fff;
+                margin-left: 1rem;
+                font-size: 1.2rem;
+                border-radius: .3rem;
+                border: none;
+                font-family: 'Raleway', sans-serif;
+            }
+
+            button:hover{
+                background: hsla(224, 93%, 58%, 0.9);
+            }
+
+            .link{
+                margin-top:0.5rem;
+                text-decoration: underline;
+                color:hsl(170, 45%, 43%);
+            }
+
+            .testimonial{
+                padding: 1.5rem 1rem 1.5rem 3rem;
+                width: 500px;
+                margin-top: 2.5rem;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                p{
+                    margin: 0;
+                    padding: 0 1rem 1.5rem 0;
+                }
+
+                .reviwer{
+                    display:flex;
+                    place-items: center;
+
+                    img{
+                        border-radius: 50%;
+                        width: 15%;
+                        margin-right: 20px;
+                    }
+
+                    p{
+                        font-size:12px;
+                    }
+                }
+
+                .quote{
+                    width:5%;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .footer-top{
+        background: #585989;
+        padding: 100px 200px;
+        color: #fff;
+        display: flex;
+        gap: 2rem;
+        place-self: center;
+
+        .left{
+            margin: 0 35rem 0 0;
+            width: 57%;
+            padding: 50px 5px;
+
+            h3{
+                font-size:2.5rem;
+                font-family: 'Raleway', sans-serif;
+            }
+        
+            p{
+                font-size:1.2rem;
+                padding-top: 1rem;
+            }
+        }
+
+        .right{
+            margin: 2.5rem 0;
+            padding: 30px 5px;
+
+            input{
+                padding: 1rem 19rem 1rem 0.5rem;
+                margin: 0.5rem 0;
+                border-radius: 5px;
+            }
+
+            button{
+                padding: 1rem 3.5rem 1rem 2.5rem;
+                background-color: #3065f8;
+                color: #fff;
+                margin: 1rem 0;
+                border-radius: 7px;
+                border: none;
+                font-size: 1rem;
+                font-family: 'Raleway', sans-serif;
+            }
+
+            button:hover{
+                background: hsla(224, 93%, 58%, 0.9);
+            }
+        }
+    }
+
+    .footer-bottom{
+        padding:100px 200px;
+        background-color: hsl(243, 87%, 12%);
+        color:hsl(0, 0%, 75%);
+        font-size: 1.2rem;
+
+        .saturate{
+            color:#fff;
+            margin:0 10px;
+            filter: invert(99%) sepia(4%) saturate(131%) hue-rotate(118deg) brightness(117%) contrast(100%);
+        }
+
+        .more{
+             display:grid;
+             grid-template-columns:1fr 1fr 1fr; 
+             padding: 50px 0;
+
+             .contact img {
+                margin: 0 17px;
+            }
+
+             .extra{
+                 display:flex;
+                 justify-content: space-around;
+                 
+             }
+
+             .digi-contact{
+                padding: 0 12rem;
+
+                .fab{
+                    border: 0.1rem solid #fff;
+                    padding: 0.5rem;
+                    margin: 0.2rem;
+                    border-radius: 50%;
+                 }
+             }
+        }
+    }
+}
