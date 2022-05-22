@@ -1,0 +1,94 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 450px;
+    padding: 70px 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.cars{
+    padding: 40px 40px;
+}
+
+p{
+    font-size: 15px;
+}
+
+h1{
+    padding:15px 0px;
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+button{
+    margin-top: 50px;
+    padding: 15px 40px;
+    border-radius: 23px;
+    font-size: 15px;
+    border: none;
+}
+
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+.sedan button{
+    color:  hsl(31, 77%, 52%);
+}
+
+.luxury button{
+    color:hsl(179, 100%, 13%);
+}
+
+.sedan button:hover{
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid white;
+}
+
+.suv button:hover{
+    color: white;
+    background-color:hsl(184, 100%, 22%);
+    border: 1px solid white;
+}
+
+.luxury button:hover{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid white;
+}
+
+@media(max-width:800px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .sedan{
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .luxury{
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+    }
+}
