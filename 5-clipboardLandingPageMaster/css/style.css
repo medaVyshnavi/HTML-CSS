@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 32px;
+  padding: 5px 100px;
+  margin: 30px 0px 5px;
+  color: #4c545d;
+}
+
+p {
+  text-align: center;
+  margin: 0 635px;
+  font-size: 20px;
+  color: #9fabb2;
+}
+
+button:hover {
+  background-color: rgba(38, 186, 164, 0.7);
+}
+
+#mac:hover {
+  background-color: rgba(97, 115, 255, 0.7);
+}
+
+header {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 100px 100px;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 40px;
+  margin: 30px 50px 10px;
+}
+
+header p {
+  padding: 0 150px;
+  font-size: 20px;
+  margin: 20px 450px;
+}
+
+header button {
+  padding: 13px 36px;
+  border-radius: 27px;
+  margin: 23px 10px;
+  font-size: 17px;
+  border: none;
+  color: #fff;
+  background-color: #26baa4;
+}
+
+header #mac {
+  background-color: #6173ff;
+}
+
+.section h3 {
+  text-align: center;
+  font-size: 32px;
+  padding: 5px 100px;
+  margin: 30px 0px 5px;
+}
+
+.section p {
+  text-align: center;
+  margin: 0 635px;
+  font-size: 20px;
+}
+
+.section .part-a {
+  margin: 100px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section .part-a img {
+  margin-left: 200px;
+}
+
+.section .part-a .info {
+  width: 70%;
+}
+
+.section .part-a h3 {
+  text-align: left;
+}
+
+.section .part-a p {
+  text-align: left;
+  margin: 0 5px 0 10px;
+  font-size: 20px;
+  width: 680px;
+  padding: 5px 0 5px 96px;
+}
+
+.section .part-b {
+  margin-top: 90px;
+}
+
+.section .part-b img {
+  margin: 90px 200px 50px 500px;
+}
+
+.tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 200px;
+}
+
+.tools p {
+  margin: 0;
+}
+
+.tools .tool {
+  padding: 10px;
+  margin: 50px 40px 90px;
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 120px;
+  align-content: space-between;
+  align-items: flex-start;
+}
+
+.footer {
+  margin: 50px 150px;
+}
+
+.footer .footer-top {
+  padding: 20px;
+}
+
+.footer .footer-top h2 {
+  padding: 20px 20px 0;
+  text-align: center;
+  font-size: 32px;
+  margin: 10px;
+}
+
+.footer .footer-top p {
+  padding: 10px 450px 70px;
+  margin: 0;
+}
+
+.footer .footer-top button {
+  padding: 13px 36px;
+  border-radius: 27px;
+  margin: 0px 10px 23px 622px;
+  font-size: 17px;
+  border: none;
+  color: #fff;
+  background-color: #26baa4;
+}
+
+.footer .footer-top button:hover {
+  background-color: rgba(38, 186, 164, 0.7);
+}
+
+.footer .footer-top #mac:hover {
+  background-color: rgba(97, 115, 255, 0.7);
+}
+
+.footer .footer-top #mac {
+  background-color: #6173ff;
+  margin-left: 10px;
+}
+
+.footer .footer-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 100px 200px 30px 300px;
+  width: 1000px;
+}
+
+.footer .footer-bottom img {
+  width: 80px;
+}
+
+.footer .footer-bottom .contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 822px;
+  margin: 0 90px 0 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .footer-bottom .contact p {
+  margin: 0px 100px 0 13px;
+  padding: 10px 10px;
+}
+
+.footer .footer-bottom .contact p:hover {
+  color: #26baa4;
+}
+
+.footer .footer-bottom .digi-logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .footer-bottom .digi-logo .fab {
+  padding: 10px;
+}
+
+.footer .footer-bottom .digi-logo .fab:hover {
+  color: #26baa4;
+}
+/*# sourceMappingURL=style.css.map */
