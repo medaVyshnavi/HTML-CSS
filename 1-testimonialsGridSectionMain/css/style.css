@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e0d4d4;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin: 60px 200px;
+  color: white;
+  height: 50%;
+}
+
+.individual {
+  border-radius: 17px;
+  padding: 15px 30px;
+}
+
+.individual.p1 {
+  grid-column: span 2;
+  background-color: #7541c8;
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 80% 0%;
+  background-size: 150px;
+  margin-bottom: 120px;
+}
+
+.individual.p2 {
+  background-color: #48556a;
+  margin-bottom: 120px;
+}
+
+.individual.p3 {
+  background-color: white;
+  color: black;
+}
+
+.individual.p4 {
+  background-color: white;
+  color: black;
+  width: 290px;
+  margin-top: -120px;
+}
+
+.individual.p5 {
+  grid-column: 2/4;
+  background-color: #19212e;
+  margin-left: -150px;
+  margin-top: -120px;
+}
+
+.individual.p3 {
+  grid-row: span 2;
+}
+
+.personalData {
+  display: flex;
+}
+
+img {
+  border-radius: 50%;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 4px;
+}
+
+.info {
+  margin-left: 25px;
+  line-height: 5px;
+  padding-top: 10px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.testimony {
+  padding: 0 10px;
+}
+/*# sourceMappingURL=style.css.map */
